@@ -1,0 +1,640 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hearderdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 80px;
+}
+
+.Banchor{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.Cbtn {
+    margin-right: 20px;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    color: #4CAF4F;
+}
+
+.CCbtn{
+    text-decoration: none;
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+
+}
+
+.Grtcont{
+    /* border: 1px solid; */
+    height: auto;
+    width: 100%;
+}
+
+.maincont{
+    display: flex;
+    /* border: 1px solid; */
+    height: 450px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subcont{
+    /* align-content: center; */
+    width: 50%;
+    /* margin-left: 90px; */
+    /* border: 1px solid; */
+    height: auto;
+    /* margin-top: 50px; */
+}
+
+.subconth{
+    color: #4CAF4F;
+    font-size: 50px;
+}
+
+.subcontp{
+    margin: 15px 0px;
+    font-size: 16px;
+}
+
+.subcontb{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.subcont::first-line {
+    color: black
+}
+
+.submaincont{
+    height: 380px;
+    margin-top: 50px;
+    /* margin-left: 80px; */
+    /* border: 1px solid; */
+}
+
+.ellipse{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.secfah{
+    margin-top: 50px;
+}
+.subsecfah{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #18191F;
+}
+
+.subsecfahp{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.subsubsec{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.manage{
+    margin-top: 70px;
+}
+
+.manageh{
+    text-align: center;
+    font-size: 30px;
+}
+
+.managep{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.mocon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.submocon, .subsubmo, .subsubsubmo{
+    text-align: center;
+    margin: 0px 129px;
+}
+
+.submoconp, .subsubmop, .subsubsubmop{
+    font-size: 12px;
+}
+
+.submoconh, .subsubmoh, .subsubsubmoh{
+    font-size: 26px;
+}
+
+.law{
+    display: flex;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.lawimg{
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.sublaw{
+    align-content: center;
+    width: 50%;
+    /* margin-right: 265px; */
+    height: auto;
+    margin-top: 50px;
+    /* margin-left: 150px; */
+}
+
+.sublawp{
+    margin: 10px 0px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.sublawbtn{
+    background-color: #4CAF4F;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.local{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5F7FA;
+    margin-top: 50px;
+}
+
+.localhp{
+    align-content: center;
+}
+
+.sublocal{
+    display: flex;
+    padding: 40px;
+    font-size: 14px;
+}
+
+.subsublocal{
+    margin-right: 100px;
+    
+}
+
+.A{
+    height: 30px;
+    display: flex;
+}
+
+.AA{
+    color: #4CAF4F;
+    width: 350px;
+    font-size: 30px;
+}
+
+.AA::first-line{
+    color: black;
+}
+
+.AP{
+    font-size: 14px;
+}
+
+.subsublocalimgph, .subsublocalimgphd, .subsublocaldimgph, .subsublocaldimgphd {
+    display: flex;
+}
+
+.C{
+    margin-left: 20px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.subsublocalimgphd, .subsublocaldimgphd{
+    margin-top: 20px;
+}
+
+
+.pana{
+    display: flex;
+    height: auto;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.panaimg{
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.subpana{
+    align-content: center;
+    width: 40%;
+    /* margin-right: 265px; */
+    height: auto;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.subpanap{
+    margin: 10px 0px;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+
+.subpanabtn{
+    background-color: #4CAF4F;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.tim{
+    display: flex;
+    height: auto;
+    background-color: #F5F7FA;
+    /* border: 1px solid; */
+    margin-top: 60px;
+}
+
+.timimg{
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+    
+}
+
+.subtim{
+    width: 50%;
+    /* margin-right: 250px; */
+    height: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.subtimp, .subtimhp{
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.subtimh{
+    margin: 10px 0px;
+    color: #4CAF4F;
+}
+
+.subtimA{
+    margin-right: 15px;
+    width: 30px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+}
+
+.subtimbtn{
+    background-color: #F5F7FA;
+    /* padding: 0px; */
+    color: #4CAF4F;
+    font-size: 12px;
+    border: none;
+    text-decoration: none;
+    /* margin: 0px; */
+    height: 50px;
+}
+
+.general{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+ 
+ .subgeneralA{
+    text-align: center;
+    width: 46%;
+    margin: auto;
+    color: #4D4D4D;
+} 
+
+.subgeneralAh{
+    font-size: 25px;
+}
+
+.subgeneralAp{
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.subgeneralB{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.subgeneralBAimg{
+    height: 250px;
+    width: 30px;
+    position: relative;
+}
+
+.subgeneralBAhbtn{
+    height: 110px;
+    width: 220px;
+    background-color: #F5F7FA;
+    position: absolute;
+    margin-left: 14px;
+    bottom: 8px;
+    border-radius: 10px;
+}
+
+.BAh, .BAbtn{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.BAh{
+    color: #4D4D4D;
+}
+
+.BAbtn{
+    color: #4CAF4F;
+    border: none;
+    text-decoration: none;
+    background-color: #F5F7FA;
+    position: absolute;
+    left: 25px;
+    width: 120px;
+    bottom: 8px;
+    height: 25px;
+}
+
+.BAimg{
+    height: 200px;
+    width: 250px;
+}
+
+.chd{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.chdh{
+    width: 30%;
+    margin: auto;
+    /* height: auto; */
+    line-height: 40px;
+    padding: 20px 0px;
+}
+
+.chdbtn{
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #263238;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+.subtable{
+    border-spacing: 20px;
+    color: white;
+    /* margin-left: 20px; */
+    
+}
+
+th, td, tr{
+    text-align: left;
+    /* margin-right: 80px; */
+    /* table-layout: auto; */
+    column-width: 180px;
+    
+}
+
+td{
+    /* margin-left: 20px; */
+    font-size: 12px;
+    
+}
+
+.subfooter{
+    margin-top: 20px;
+}
+
+.subfooterp{
+    margin: 40px 0px;
+    color: white;
+    line-height: 30px;
+}
+
+.sociala{
+    
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.tda{
+    text-decoration: none;
+    color: white;
+}
+
+input::placeholder{
+    color: #D9DBE1;
+}
+
+input[type="email"] {
+    background: url(./images/send.png) no-repeat right 10px center;
+    text-indent: 10px;
+    /* border: none; */
+    /* border-radius: 10px; */
+}
+
+.hanburger{
+    display: none;
+}
+
+/* ##############media############## */
+
+@media (max-width: 900px) and (min-width:320px) {
+        .hanburger{display: block;
+        }    
+        .Bnav, .Cnav{
+            display: none;
+        }
+
+        .maincont{
+            height: auto;
+            flex-direction: column-reverse;
+        }
+        .subcont{
+            text-align: center;
+            width: 100%;
+            margin: 80px 0;
+        }
+        .subcont h1{
+            font-size: 34px;
+            padding: 0 50px;
+
+        }
+
+        .subcontb{
+            margin-top: 15px;
+        }
+
+        .ellipse{
+            margin-top: -25px;
+        }
+        .subsecfahh{
+            font-size: 34px;
+            padding: 0 50px;
+        }
+
+        .subsubsec{
+            height: 30px;
+        }
+
+        .manageh{
+            font-size: 25px;
+            padding: 0 50px;
+        }
+        
+        .mocon{
+            flex-wrap: wrap;
+        }
+
+        .submocon, .subsubmo, .subsubsubmo{
+            text-align: center;
+            margin: 10px 80px;
+        }
+        
+       
+        .submoconh, .subsubmoh, .subsubsubmoh{
+            font-size: 20px;
+        }
+
+        .law{
+            flex-wrap: wrap;
+            height: auto;
+            width: 100%;
+            margin-top: 0px;
+        }
+
+        .sublaw{
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-top: -20px;
+          
+        }
+
+        .local{
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .pana{
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+            margin-top: -20px;
+        }
+
+        .subpana{
+            width: 80%;
+            height: auto;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        .tim{
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+        }
+        .subtim{
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin-right: 60px;
+        }
+
+        .subgeneralB{
+           flex-wrap: wrap;
+           flex-direction: column; 
+           align-items: center;
+           margin-left: -70px;
+        }
+        .subgeneralA{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .chd{
+            width: 100%;
+            height: auto;
+            margin: 0px;
+        }
+
+        .chdh{
+            font-size: 30px;
+            width: 100%;
+        }
+
+        .table{
+            display: none;
+        }
+}
